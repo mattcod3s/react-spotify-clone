@@ -1,0 +1,24 @@
+.banner {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+
+    img {
+        height: 20vw;
+        margin: 0 20px;
+        box-shadow: 0 4px 60px rgba($color: #000000, $alpha: 0.5);
+    }
+
+    .banner__infoText {
+        flex: 1;
+
+        h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.body {
+    flex: 0.8;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0,0,0,1));
+    color: white;
+    height: 100vh;
+    padding: 30px;
+    overflow-y: overlay;
+
+    .body__songs {
+        margin: 20px -30px;
+
+        .body__icons {
+            display: flex;
+            align-items: center;
+
+            .body__shuffle {
+                font-size: 80px !important;
+                margin: 20px 50px 20px 0;
+            }
+
+            .body__shuffle:hover {
+                transition: 100ms transform ease-in-out;
+                transform: scale(1.08);
+            }
+
+            .MuiSvgIcon-root {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
